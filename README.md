@@ -28,3 +28,30 @@ This is the starting point of my Python learning journey and sets the foundation
 - This project is meant for learning, not perfection 
 
 -----------------------------------------------------
+
+
+
+#  Day 2 Python Project
+
+## Smart ID & Credential Validator
+
+## Overview
+Validates student registration details using **only strings and conditional statements**.  
+Checks Student ID, Email, Password, and Referral Code.
+
+## Validation Rules
+- **Student ID:** Format `CSE-XXX`, last 3 digits must be numbers  
+- **Email:** Must contain `@` and `.`, cannot start/end with `@`, ends with `.edu`  
+- **Password:** Min 8 chars, first letter uppercase, at least one digit  
+- **Referral Code:** Format `REF##@`, last two digits numbers, ends with `@`
+
+## Approach
+- Inputs are strings  
+- Conditions check validity using indexing and comparisons  
+- Boolean variable tracks overall validity  
+- Prints `Approved` if all pass, else `Rejected`
+
+## Learning Outcome
+- Learned string validation using conditions  
+- Practiced indexing, slicing, and logical checks without loops or regex
+
