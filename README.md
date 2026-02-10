@@ -93,6 +93,6 @@ Personalized logic uses register number parity
 If the register number is even and marks ≥ 90, output shows:
 Excellent (consistent performance)
 
-##Learning Outcome
+## Learning Outcome
 
 Learned how to process lists using loops, apply conditional logic, validate inputs, and implement personalized conditions without using built-in functions or advanced data structures.
