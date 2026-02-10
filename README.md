@@ -55,14 +55,14 @@ Checks Student ID, Email, Password, and Referral Code.
 - Learned string validation using conditions  
 - Practiced indexing, slicing, and logical checks without loops or regex
 
-# Day 3 Python Project 
+#  Day 3 Python Project 
 
-##Student Performance Analyzer
-##Overview
+## Student Performance Analyzer
+## Overview
 
 Analyzes student marks and classifies performance using basic Python concepts like lists, loops, and conditional statements.
 
-##Classification Rules
+## Classification Rules
 
 90 – 100 → Excellent
 
@@ -76,7 +76,7 @@ Analyzes student marks and classifies performance using basic Python concepts li
 
 < 0 or > 100 → Invalid
 
-##Approach
+## Approach
 
 Marks are stored in a list
 
@@ -88,7 +88,7 @@ Counters track valid and failed students
 
 Personalized logic uses register number parity
 
-##Personalization
+## Personalization
 
 If the register number is even and marks ≥ 90, output shows:
 Excellent (consistent performance)
