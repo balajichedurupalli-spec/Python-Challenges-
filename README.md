@@ -96,3 +96,47 @@ Excellent (consistent performance)
 ## Learning Outcome
 
 Learned how to process lists using loops, apply conditional logic, validate inputs, and implement personalized conditions without using built-in functions or advanced data structures.
+
+
+
+# Day 4 Python Project
+## User Profile Validation System
+## Overview
+
+This project analyzes student marks and classifies their performance using basic Python concepts such as lists, loops, and conditional statements.
+
+## Classification Rules
+
+90 – 100 → Excellent
+
+75 – 89 → Very Good
+
+60 – 74 → Good
+
+40 – 59 → Average
+
+0 – 39 → Bad
+
+< 0 or > 100 → Invalid
+
+## Approach
+
+Marks are stored in a list
+
+A for loop processes each mark
+
+Conditional statements classify performance
+
+Counters track valid and failed students
+
+Personalized logic is applied using register number parity
+
+## Personalization
+
+If the register number is even and the marks are greater than or equal to 90, the output displays:
+
+Excellent (consistent performance)
+
+## Learning Outcome
+ 
+Learned how to process lists using loops, apply conditional logic, validate inputs, and implement personalized conditions without using built-in functions or advanced data structures.
