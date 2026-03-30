@@ -8,7 +8,7 @@ It’s mainly about getting comfortable with the basics — understanding syntax
 
 This is the starting point of my Python learning journey and sets the foundation for more advanced topics ahead.
 
----
+--
 
 ##  Features
 - Simple and easy-to-read Python code  
@@ -175,6 +175,7 @@ A dictionary is used to store categorized data
 List comprehension filters valid transactions
 Summary metrics (total value, count) are calculated
 Conditional logic determines overall risk
+
 ## Key Concepts Used
 Lists
 Dictionaries
@@ -182,6 +183,7 @@ Loops (for)
 Conditional statements (if-elif-else)
 List comprehension
 Basic data analysis logic
+
 ## Personalization Logic
 Detects frequent transactions (> 5)
 Detects large spending behavior (> 5000 total)
