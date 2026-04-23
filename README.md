@@ -120,6 +120,7 @@ Learned how to use dictionaries for structured storage and apply multiple condit
 This project simulates, categorizes, and analyzes student academic performance data using advanced Python libraries (Pandas, NumPy, Seaborn).
 
 ## Features
+- **Script**: `day8.py`
 - **Data Simulation**: Generates student records using `NumPy` and `Random`.
 - **Academic Categorization**: Automatically classifies students into performance tiers.
 - **Visual Analytics**: Generates a correlation heatmap using `Seaborn`.
