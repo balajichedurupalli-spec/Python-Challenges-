@@ -198,3 +198,31 @@ Use dictionaries for structured storage
 Apply multiple conditions for decision making
 Implement simple risk analysis logic
 Combine different conditions to derive insights
+
+---
+
+# Day 8 Python Project
+## Student Performance Analysis System
+
+## Overview
+This project simulates, categorizes, and analyzes student academic performance data using advanced Python libraries. It combines synthetic data generation with deep statistical analysis and visualization.
+
+## Features
+- **Data Simulation**: Generates student records (IDs, Marks, Attendance, Scores) using `NumPy` and `Random`.
+- **Academic Categorization**: Automatically classifies students into "Top Performers," "Good," "Average," or "At Risk."
+- **Statistical Engine**: Calculates mean, standard deviation, and correlation coefficients.
+- **Performance Indexing**: Uses non-linear formulas to derive a student stability score.
+- **Visual Analytics**: Generates a correlation heatmap using `Seaborn`.
+
+## Key Concepts Used
+- **Pandas**: DataFrame management and data cleaning.
+- **NumPy**: Vectorized numerical operations and data generation.
+- **Matplotlib & Seaborn**: Statistical data visualization.
+- **Math**: Non-linear performance scaling.
+
+## Learning Outcome
+Learned how to:
+- Integrate multiple industry-standard libraries for data science.
+- Perform complex data analysis using DataFrames.
+- Map numerical insights to real-world status classifications.
+- Visualize data correlations to identify academic trends.
