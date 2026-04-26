@@ -1,64 +1,129 @@
-# Student Performance Analysis System
+# Python-Challenges-
 
-A Python-based analytical tool designed to simulate, categorize, and visualize student academic performance data. This project utilizes industry-standard libraries like Pandas, NumPy, and Seaborn to provide deep insights into student trends and system stability.
+# Day 1 Python Project
 
-## 🚀 Features
+## Project Description
+This project contains the Python code I wrote on **Day 1** while learning Python.  
+It’s mainly about getting comfortable with the basics — understanding syntax, writing simple logic, and seeing how things actually work in code.
 
-- **Automated Data Generation**: Generates synthetic student records including IDs, marks, attendance, and assignment scores.
-- **Dynamic Categorization**: Classifies students into "Top Performers," "Good," "Average," and "At Risk" based on customizable academic thresholds.
-- **Statistical Analysis**:
-  - Manual and NumPy-based mean/standard deviation calculations.
-  - Correlation analysis between marks and attendance.
-  - Performance Indexing using non-linear scaling.
-- **System Health Status**: Evaluates the overall academic system status (e.g., "CRITICAL ATTENTION REQUIRED") based on distribution and risk factors.
-- **Visual Insights**: Generates high-quality heatmaps to visualize the correlation matrix between key academic metrics.
+This is the starting point of my Python learning journey and sets the foundation for more advanced topics ahead.
 
-## 🛠️ Technology Stack
+---
 
-- **Python 3.12+**
-- **Pandas**: For data manipulation and DataFrame management.
-- **NumPy**: For numerical operations and array handling.
-- **Matplotlib & Seaborn**: For generating premium statistical visualizations.
-- **Math & Random**: For simulation and foundational calculations.
+## Features
+- Simple and easy-to-read Python code  
+- Focuses on Python basics  
+- Beginner-friendly and great for practice  
+- Easy to tweak and experiment with  
 
-## 📋 Prerequisites
+---
 
-Ensure you have the following libraries installed:
+## Technologies Used
+- Python 3
 
-```bash
-pip install numpy pandas seaborn matplotlib
-```
+---
 
-## 🏃 How to Run
+## Notes
+- Feel free to play around with the code and try your own ideas.
+- This project is meant for learning, not perfection 
 
-Simply execute the main script from your terminal:
+-----------------------------------------------------
 
-```bash
-python main.py
-```
+# Day 2 Python Project
 
-## 📊 Sample Output
+## Smart ID & Credential Validator
 
-The system provides a comprehensive console report:
+## Overview
+Validates student registration details using **only strings and conditional statements**.  
+Checks Student ID, Email, Password, and Referral Code.
 
-```text
-Student data frame 
- student_id  marks  attendance  assignment_score  normalized_marks  performance_index
-        101     69          81                44          0.771084         168.546737
-        ...
+## Validation Rules
+- **Student ID:** Format `CSE-XXX`, last 3 digits must be numbers  
+- **Email:** Must contain `@` and `.`, cannot start/end with `@`, ends with `.edu`  
+- **Password:** Min 8 chars, first letter uppercase, at least one digit  
+- **Referral Code:** Format `REF##@`, last two digits numbers, ends with `@`
 
- Student Categorisation : 
-Top_performers : ...
-At_risk : ...
+## Approach
+- Inputs are strings  
+- Conditions check validity using indexing and comparisons  
+- Boolean variable tracks overall validity  
+- Prints `Approved` if all pass, else `Rejected`
 
- Statistical Analysis :
-Mean Marks : 56.57
-Standard Deviation : 27.27
-Correlation Coefficient (Marks vs Attendance) : 0.35
+## Learning Outcome
+- Learned string validation using conditions  
+- Practiced indexing, slicing, and logical checks without loops or regex
 
- Academic System Status : CRITICAL ATTENTION REQUIRED
-```
+-----------------------------------------------------
 
-## 📝 License
+# Day 3 Python Project 
 
-This project is open-source and available for educational purposes.
+## Student Performance Analyzer
+
+## Overview
+Analyzes student marks and classifies performance using basic Python concepts like lists, loops, and conditional statements.
+
+## Classification Rules
+- 90 – 100 → Excellent
+- 75 – 89 → Very Good
+- 60 – 74 → Good
+- 40 – 59 → Average
+- 0 – 39 → Bad
+
+## Approach
+- Marks are stored in a list
+- A for loop processes each mark
+- Conditional statements classify performance
+- Counters track valid and failed students
+
+## Learning Outcome
+Learned how to process lists using loops, apply conditional logic, and validate inputs without advanced structures.
+
+-----------------------------------------------------
+
+# Day 4 Python Project
+## User Profile Validation System
+
+## Overview
+This project analyzes student marks and classifies their performance using basic Python concepts such as lists, loops, and conditional statements.
+
+## Approach
+- Marks are stored in a list
+- A for loop processes each mark
+- Personalized logic is applied using register number parity
+
+## Learning Outcome
+Learned how to process lists using loops, apply conditional logic, and implement personalized conditions.
+
+-----------------------------------------------------
+
+# Day 6 Python Project
+## Transaction Risk Analysis System
+
+## Overview
+This project analyzes financial transactions and classifies them into different risk categories using basic Python concepts such as lists, loops, dictionaries, and conditional statements.
+
+## Classification Rules
+- ≤ 0 → Invalid
+- 1 – 500 → Normal
+- 501 – 2000 → Large
+- \> 2000 → High Risk
+
+## Learning Outcome
+Learned how to use dictionaries for structured storage and apply multiple conditions for decision making.
+
+-----------------------------------------------------
+
+# Day 8 Python Project
+## Student Performance Analysis System
+
+## Overview
+This project simulates, categorizes, and analyzes student academic performance data using advanced Python libraries (Pandas, NumPy, Seaborn).
+
+## Features
+- **Script**: `day8.py`
+- **Data Simulation**: Generates student records using `NumPy` and `Random`.
+- **Academic Categorization**: Automatically classifies students into performance tiers.
+- **Visual Analytics**: Generates a correlation heatmap using `Seaborn`.
+
+## Learning Outcome
+Learned how to integrate industry-standard libraries (Pandas, NumPy) for data science and visualization.
